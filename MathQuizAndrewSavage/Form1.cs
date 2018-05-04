@@ -133,5 +133,10 @@ namespace MathQuizAndrewSavage
                 answerBox.Select(0, lengthOfAnswer);
             }
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
