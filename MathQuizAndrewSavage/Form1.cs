@@ -49,6 +49,10 @@ namespace MathQuizAndrewSavage
             addend1 = randomizer.Next(51);
             addend2 = randomizer.Next(51);
 
+            String todayDate = DateTime.Today.ToString("dd MMMM yyyy");
+
+            todayDateLabel.Text = todayDate.ToString();
+
             plusLeftLabel.Text = addend1.ToString();
             plusRightLabel.Text = addend2.ToString();
 
@@ -135,6 +139,11 @@ namespace MathQuizAndrewSavage
         }
 
         private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
